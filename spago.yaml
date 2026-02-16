@@ -1,5 +1,5 @@
 workspace:
-  package_set:
+  packageSet:
     registry: 51.1.0
 
 package:
@@ -10,12 +10,12 @@ package:
     location:
       githubOwner: rowtype-yoga
       githubRepo: purescript-yoga-pino
-      
+
   dependencies:
-    - aff: ">=7.0.0 <8.0.0"
     - effect: ">=4.0.0 <5.0.0"
-    - prelude: ">=6.0.0 <7.0.0"
     - foreign-object: ">=4.0.0 <5.0.0"
+    - functions: ">=6.0.0 <7.0.0"
+    - prelude: ">=6.0.0 <7.0.0"
   test:
     main: Test.Pino.Main
     dependencies:

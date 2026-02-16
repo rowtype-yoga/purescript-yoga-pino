@@ -1,0 +1,11 @@
+# Dependencies and build outputs
+node_modules/
+.spago/
+output/
+output-*/
+
+# OS/Editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
